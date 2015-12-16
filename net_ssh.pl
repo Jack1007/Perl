@@ -3,7 +3,7 @@
 
 use Net::OpenSSH;
 use Getopt::Long;
-local $username = 'admin';
+local $username = 'root';
 local $password = '';
 local $pass_flag = 0;
 my ($exe_cmd, $ipfile, @put, @get, $local_file, $remote_file);
